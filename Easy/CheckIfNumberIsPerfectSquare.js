@@ -1,9 +1,6 @@
 class Solution {
-    solve(n) {
-        if(Math.sqrt(n) === Math.floor(Math.sqrt(n))){
-            return true;
-        }
-        return false;
-    }
+  solve(n) {
+    return Math.sqrt(n) % 1 == 0;
+  }
 }
 //https://binarysearch.com/problems/Check-if-Number-Is-Perfect-Square
